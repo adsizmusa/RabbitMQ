@@ -15,7 +15,8 @@ namespace RabbitMQ.Conenction
 
                 var model = new
                 {
-                    Name = "Musa"
+                    Name = "Musa",
+                    Surname="Adsiz"
                 };
 
                 var pay = Newtonsoft.Json.JsonConvert.SerializeObject(model);
